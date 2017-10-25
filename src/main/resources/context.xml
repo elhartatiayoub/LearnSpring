@@ -1,0 +1,32 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+       <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+       <!--xmlns:context="http://www.springframework.org/schema/context"-->
+       <!--xmlns:tx="http://www.springframework.org/schema/tx"-->
+       <!--xmlns:security="http://www.springframework.org/schema/security"-->
+       <!--xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd-->
+			<!--http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd-->
+			<!--http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd-->
+			<!--http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-4.2.xsd">-->
+
+    <!--&lt;!&ndash;-->
+        <!--SPRING SETUP-->
+     <!--&ndash;&gt;-->
+
+    <!--&lt;!&ndash; Load properties so we can easily change them &ndash;&gt;-->
+    <!--<context:property-placeholder location="classpath:application.properties"/>-->
+
+    <!--&lt;!&ndash; Enable Annotation Configuration in order to automatically scan controllers&ndash;&gt;-->
+    <!--<context:annotation-config/>-->
+
+    <!--&lt;!&ndash; Allow @Transactional annotations for transaction management &ndash;&gt;-->
+    <!--<tx:annotation-driven transaction-manager="transactionManager"/>-->
+
+    <!--&lt;!&ndash; Search for Rest Resources and configure them automatically &ndash;&gt;-->
+    <!--<context:component-scan base-package="*"/>-->
+
+    <!--&lt;!&ndash;-->
+        <!--DATABASE SETUP-->
+     <!--&ndash;&gt;-->
+
+<!--</beans>-->
