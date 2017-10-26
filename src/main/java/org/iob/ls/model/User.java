@@ -1,10 +1,19 @@
 package org.iob.ls.model;
 
+import org.springframework.data.annotation.Id;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+
 /**
  * Created by Ayoub on 25/10/2017.
  */
+@Entity
 public class User {
 
+    @Id
+    @GeneratedValue
+    private Long id;
     private String name;
     private String email;
     private String password;
